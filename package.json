@@ -1,0 +1,33 @@
+{
+  "name": "learn-ast-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "bin": {
+    "shiny": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ShinyLee",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/generator": "^7.3.3",
+    "@babel/parser": "^7.3.3",
+    "@babel/template": "^7.2.2",
+    "@babel/traverse": "^7.2.3",
+    "@babel/types": "^7.3.3",
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "inquirer-autocomplete-prompt": "^1.0.1"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0",
+    "dayjs": "^1.8.6",
+    "fuzzy": "^0.1.3",
+    "glob": "^7.1.3",
+    "inquirer": "^6.2.2"
+  }
+}
