@@ -28,9 +28,10 @@
     "dayjs": "^1.8.6",
     "fuzzy": "^0.1.3",
     "glob": "^7.1.3",
-    "inquirer": "^6.2.2"
+    "inquirer": "^6.2.2",
+    "recast": "^0.17.3"
   },
-  "engines" : {
-    "node" : ">=8.10.0"
+  "engines": {
+    "node": ">=8.10.0"
   }
 }
