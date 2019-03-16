@@ -6,7 +6,7 @@ const visitor = {
     const { name } = path.node.name;
     const classComp = path.findParent(parent => parent.isClassDeclaration());
     const compName = classComp ? classComp.node.id.name : 'Anonymous';
-    attr.push(
+    attr.unshift(
       t.jsxAttribute(
         t.jsxIdentifier('testID'),
         t.StringLiteral(`${compName}_${name}`),

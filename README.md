@@ -1,3 +1,3 @@
-## Quick Start
+## Usage
 
-`./bin/index.js transform -i inputs/require2import.js -s visitors/codemods/require2import.js`
+`./bin/index.js transform -i your/input/path -v your/visitor/path`
